@@ -1,0 +1,32 @@
+group 'IChat'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'com.google.code.gson:gson:2.8.0'
+    //java类封装
+    testCompile 'com.google.guava:guava:21.0'
+    //Jersey Resutful接口框架
+    testCompile 'org.glassfish.jersey.core:jersey-client:2.26-b03'
+    testCompile 'org.glassfish.jersey.core:jersey-server:2.26-b03'
+    testCompile 'org.glassfish.jersey.containers:jersey-container-servlet:2.26-b03'
+    //也是一个json解析库
+    testCompile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.26-b03'
+    //数据库操作框架
+    testCompile 'org.hibernate:hibernate-core:5.2.9.Final'
+    testCompile 'org.hibernate:hibernate-entitymanager:5.2.9.Final'
+    //数据库连接池
+    testCompile 'org.hibernate:hibernate-c3p0:5.2.9.Final'
+    //mysql驱动库
+    testCompile group:'mysql',name:'mysql-connector-java',version:'6.0.6'
+
+}
