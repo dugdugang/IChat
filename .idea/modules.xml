@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IChat.iml" filepath="$PROJECT_DIR$/.idea/modules/IChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IChat_main.iml" filepath="$PROJECT_DIR$/.idea/modules/IChat_main.iml" group="IChat" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IChat_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IChat_test.iml" group="IChat" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
     </modules>
   </component>
 </project>

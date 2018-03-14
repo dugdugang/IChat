@@ -3,6 +3,9 @@
   <component name="FacetManager">
     <facet type="web" name="Web Gradle : IChat-1.0-SNAPSHOT.war">
       <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
         <webroots>
           <root url="file://D:\java_project\IChat\src\main\webapp" relative="/" />
         </webroots>
@@ -25,5 +28,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jersey.core:jersey-server:2.26-b03" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4" level="project" />
+    <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:6.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-core:5.2.9.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-c3p0:5.2.9.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.1-m05" level="project" />
   </component>
 </module>
